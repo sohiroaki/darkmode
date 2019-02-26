@@ -2105,9 +2105,9 @@ html.no_touch a.filetype_button_web:hover .file_title { color: #e6e6e6; }
 
 a.internal_member_link { background: #363636; color: #e6e6e6; }
 
-a.c-member_slug, .c-member_slug--link, .c-mrkdwn__subteam--link, .c-mrkdwn__user_group--link { background: #363636; border: 1px solid #545454; color: #e6e6e6; }
+a.c-member_slug, .c-member_slug--link, .c-mrkdwn__subteam--link, .c-mrkdwn__user_group--link { background: #363636 !important; border: 1px solid #545454 !important; color: #e6e6e6 !important; }
 
-a.c-member_slug.active, a.c-member_slug:hover, .c-member_slug--link.active, .c-member_slug--link:hover, .c-mrkdwn__subteam--link.active, .c-mrkdwn__subteam--link:hover, .c-mrkdwn__user_group--link:hover, .c-mrkdwn__user_group--link:active { background: #424242; color: #e6e6e6; }
+a.c-member_slug.active, a.c-member_slug:hover, .c-member_slug--link.active, .c-member_slug--link:hover, .c-mrkdwn__subteam--link.active, .c-mrkdwn__subteam--link:hover, .c-mrkdwn__user_group--link:hover, .c-mrkdwn__user_group--link:active { background: #424242 !important; color: #e6e6e6 !important; }
 
 .mention_rxn .mention_rxn_summary { color: #e6e6e6; }
 
