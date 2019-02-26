@@ -352,7 +352,7 @@ input[disabled], input[readonly], textarea[disabled], textarea[readonly] { backg
 
 #message_edit_form.offline #primary_file_button { border-color: #424242; color: #949494; }
 
-#msg_form.focus #msg_input, #msg_form.focus #primary_file_button:not(:hover):not(.active) { border-color: #363636; }
+#msg_form.focus #msg_input, #msg_form.focus #primary_file_button:not(:hover):not(:active) { border-color: #363636; }
 
 #msg_form #msg_input { background: padding-box #545454; border-color: #424242; border-left: 0; color: #e6e6e6; }
 
@@ -386,9 +386,9 @@ input[disabled], input[readonly], textarea[disabled], textarea[readonly] { backg
 
 #msg_input_message { background-color: #363636; color: #e6e6e6; }
 
-#primary_file_button { background: padding-box #545454; border-color: #424242; color: #949494; }
+#primary_file_button, .p-threads_footer__input--legacy button.p-threads_footer__input--legacy { background: padding-box #545454; border-color: #424242; color: #949494; }
 
-#primary_file_button.active, #primary_file_button.focus-ring, #primary_file_button:focus, #primary_file_button:hover { background: #424242; border-color: #363636; color: #e6e6e6; }
+#primary_file_button.active, #primary_file_button.focus-ring, #primary_file_button:focus, #primary_file_button:hover, .p-threads_footer__input--legacy button.p-threads_footer__input--legacy:hover  { background: #424242; border-color: #363636; color: #e6e6e6; }
 
 #footer, #footer.footer_msg_input { background: #222; box-shadow: inset 1px 0 0 0 #222; }
 
@@ -4190,12 +4190,13 @@ comments { box-shadow: inset 1px 0 0 rgba(0, 0, 0, 0.25); }
 
 .p-threads_footer__input .p-message_input_field input::placeholder{color: #949494;}
 
-.p-threads_footer__input--legacy .p-message_input_file_button{
-background: #545454;
-color: #949494;
-}
+.p-threads_footer__input--legacy .p-message_input_file_button{ background: #545454; color: #949494; border-color: #424242;}
 
-.p-threads_flexpane__header_channel_name {color: #ffffff;}
+.p-threads_footer__input--legacy .p-message_input_file_button:hover { background: #424242; border-color: #363636; color: #e6e6e6; }
+
+
+a.p-threads_flexpane__header_permalink, a.p-threads_flexpane__header_permalink .p-threads_flexpane__header_channel_name {color: #ffffff !important;text-decoration:none;}
+a.p-threads_flexpane__header_permalink :hover {color: #ffffff !important; text-decoration:underline;}
 
 .c-pillow_file__icon--slide:after {border-color: #363636 !important;}
 .c-pillow_file__swap .c-pillow_file__slide {background-color: #363636 !important;}
