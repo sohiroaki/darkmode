@@ -886,7 +886,7 @@ input[disabled], input[readonly], textarea[disabled], textarea[readonly] { backg
 
 #col_messages { box-shadow: inset 1px 0 0 0 #222; }
 
-.c-mrkdwn__broadcast--mention, .c-mrkdwn__broadcast--mention:hover, .c-mrkdwn__highlight, .c-mrkdwn__mention, .c-mrkdwn__mention:hover, .c-mrkdwn__subteam--mention, .c-mrkdwn__subteam--mention:hover, .mention_yellow_bg { color: #949494 !important; }
+.c-mrkdwn__broadcast--mention, .c-mrkdwn__broadcast--mention:hover, .c-mrkdwn__highlight, .c-mrkdwn__mention, .c-mrkdwn__mention:hover, .c-mrkdwn__subteam--mention, .c-mrkdwn__subteam--mention:hover, .mention_yellow_bg { /*color: #949494 !important;*/ background-color: #09314A; color: #1B95E0;  border-color:#1B95E0; }
 
 .c-message:hover .c-message__broadcast_preamble_outer, .c-message:hover .c-message__broadcast_preamble { color: #949494; }
 
@@ -2057,9 +2057,9 @@ html.no_touch a.filetype_button_web:hover .file_title { color: #e6e6e6; }
 
 .p-file_list__filters { border-color: #363636; }
 
-.p-file_list__file.c-pillow_file_container, .p-file_list__file.c-pillow_file_container--full_width { background: #363636; border-color: #363636; color: #e6e6e6; }
+/*.p-file_list__file*/.c-pillow_file_container, /*.p-file_list__file*/ .c-pillow_file_container--full_width { background: #363636; border-color: #363636; color: #e6e6e6; }
 
-.p-file_list__file.c-pillow_file_container--full_width:hover { background: #545454; border-color: #545454; }
+/*.p-file_list__file*/.c-pillow_file_container--full_width:hover { background: #545454; border-color: #545454; }
 
 .p-downloads_list__shift_hint { background: linear-gradient(180deg, rgba(255, 255, 255, 0), #222 25%, #222); color: #e6e6e6; }
 
@@ -2533,7 +2533,7 @@ input[type="text"].p-emoji_picker__input:focus { border-color: #545454; box-shad
 
 .rxn.menu_rxn .ts_icon, .c-reaction.menu_rxn .ts_icon, .c-reaction_add.menu_rxn .ts_icon, .c-member_slug.menu_rxn .ts_icon { color: rgba(230, 230, 230, 0.25); }
 
-a.c-member_slug--mention, a.c-member_slug--mention:hover { background-color: #363636; color: #1B95E0;  border-color:#1B95E0}
+a.c-member_slug--mention, a.c-member_slug--mention:hover { background-color: #363636; color: #1B95E0;  border-color:#1B95E0; }
 
 .modal { background-color: #222; border: 0; box-shadow: 0 1px 10px rgba(0, 0, 0, 0.5); }
 
