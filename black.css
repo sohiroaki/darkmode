@@ -1217,9 +1217,9 @@ ts-mention { background: rgba(130, 130, 130, 0.1) !important; color: #e6e6e6 !im
 
 .c-message_attachment__select:hover, .c-message_attachment__select:active { border-color: #545454; }
 
-.c-message__reply_bar:hover, .c-message__reply_bar--focus { background-color: #222; border-color: #e6e6e6; }
+.c-message__reply_bar:hover, .c-message__reply_bar--focus { background-color: #222; border-color: #949494; }
 
-.c-message__reply_bar:hover .c-message__reply_bar_arrow, .c-message__reply_bar--focus .c-message__reply_bar_arrow { color: #949494;!important }
+.c-message__reply_bar:hover .c-message__reply_bar_arrow, .c-message__reply_bar--focus .c-message__reply_bar_arrow { color: #949494; }
 
 .c-message__reply_bar:hover .c-message__reply_bar_view_thread, .c-message__reply_bar--focus .c-message__reply_bar_view_thread { background-color: #222;!important }
 
