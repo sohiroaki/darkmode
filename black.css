@@ -2525,7 +2525,7 @@ input[type="text"].p-emoji_picker__input:focus { border-color: #545454; box-shad
 
 .rxn.active .emoji_rxn_count, .rxn:hover .emoji_rxn_count, .c-reaction.active .emoji_rxn_count, .c-reaction:hover .emoji_rxn_count, .c-reaction_add.active .emoji_rxn_count, .c-reaction_add:hover .emoji_rxn_count, .c-member_slug.active .emoji_rxn_count, .c-member_slug:hover .emoji_rxn_count { color: #e6e6e6; }
 
-.rxn.c-reaction--reacted, .c-reaction.c-reaction--reacted, .c-reaction_add.c-reaction--reacted, .c-member_slug.c-reaction--reacted { background-color: rgba(66, 66, 66, 0.08); border-color: rgba(130, 130, 130, 0.4) !important; }
+.rxn.c-reaction--reacted, .c-reaction.c-reaction--reacted, .c-reaction_add.c-reaction--reacted, .c-member_slug.c-reaction--reacted { /*background-color: rgba(66, 66, 66, 0.08); border-color: rgba(130, 130, 130, 0.4) !important; */ background-color: #09314A !important; color: #1B95E0 !important;  border:1px solid #1B95E0 !important; }
 
 .rxn.c-reaction--reacted .emoji_rxn_count, .rxn.c-reaction--reacted .c-reaction__count, .c-reaction.c-reaction--reacted .emoji_rxn_count, .c-reaction.c-reaction--reacted .c-reaction__count, .c-reaction_add.c-reaction--reacted .emoji_rxn_count, .c-reaction_add.c-reaction--reacted .c-reaction__count, .c-member_slug.c-reaction--reacted .emoji_rxn_count, .c-member_slug.c-reaction--reacted .c-reaction__count { color: #e6e6e6; }
 
