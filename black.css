@@ -4202,3 +4202,5 @@ a.p-threads_flexpane__header_permalink :hover {color: #ffffff !important; text-d
 .c-pillow_file__swap .c-pillow_file__slide {background-color: #363636 !important;}
 
 .c-message_kit__file__meta {color: #949494 !important;}
+
+.c-message_kit__gutter, .p-threads_view__footer {background:#212121;}
